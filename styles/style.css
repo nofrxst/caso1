@@ -1,0 +1,215 @@
+body{
+    background-color:lightgray;
+    
+}
+.general{
+    margin: opx;
+    padding: 0px;
+}
+*
+{
+    margin: 5px;
+    padding: 0px;
+}
+header{
+    color:gray;
+    font-family: arial;
+}
+
+.inicio{
+    background-image: url("https://free4kwallpapers.com/uploads/originals/2019/11/13/ultraviolet-wallpaper.jpg");
+    background-size: 100%;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.inicio h2{
+    text-align: center;
+    font-family: Arial;
+font-size: 40px;
+}
+
+.nom{
+    padding-left: 40px;
+    font-family: arial;
+}
+
+.about{
+    background-color: blue;
+    padding-bottom: 40px;
+    padding:10px;
+}
+
+.about h1{
+    color:white;
+    font-family: arial;
+    text-align: center;
+    
+}
+
+.about p{
+    color: white;
+    text-align: left;
+    font-family: arial;
+}
+
+button{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 50px;
+    color:white
+    
+}
+
+.skills{
+    background-color: blueviolet;
+    padding: 100px;
+    padding-left: 20px;
+}
+
+.skills  h1{
+    color: white;
+    position: relative;
+    top: -90px;
+    text-align: center;
+    font-family: arial;
+    
+}
+.margen{
+    background-color: white;
+    border-radius: 20px;
+    color:white;
+    width: 30%;
+    position: absolute;
+    bottom: -60px;
+}
+
+.margen2{
+    background-color: aqua;
+    border-radius: 20px;
+    color:aqua;
+    width: 20%;
+    position: absolute;
+    bottom: -60px;
+}
+
+.margen3{
+    background-color: white;
+    border-radius: 20px;
+    color:white;
+    width: 30%;
+    position: absolute;
+    bottom: -15px;
+}
+
+.margen4{
+    background-color: aqua;
+    border-radius: 20px;
+    color:aqua;
+    width: 10%;
+    position: absolute;
+    bottom: -15px;
+}
+.margen5{
+    background-color: white;
+    border-radius: 20px;
+    color:white;
+    width: 30%;
+    position: absolute;
+    bottom: 30px;
+}
+
+.margen6{
+    background-color: aqua;
+    border-radius: 20px;
+    color:aqua;
+    width: 15%;
+    position: absolute;
+    bottom: 30px;
+}
+
+.margen7{
+    background-color: white;
+    border-radius: 20px;
+    color:white;
+    width: 30%;
+    position: absolute;
+    bottom: -60px;
+    left: 55%;
+}
+
+.margen8{
+    background-color: aqua;
+    border-radius: 20px;
+    color:aqua;
+    width: 20%;
+    position: absolute;
+    bottom: -60px;
+    left: 55%;
+
+}
+
+.margen9{
+    background-color: white;
+    border-radius: 20px;
+    color:white;
+    width: 30%;
+    position: absolute;
+    bottom: -15px;
+    left: 55%;
+}
+
+.margen10{
+    background-color: aqua;
+    border-radius: 20px;
+    color:aqua;
+    width: 10%;
+    position: absolute;
+    bottom: -15px;
+    left: 55%;
+}
+.margen11{
+    background-color: white;
+    border-radius: 20px;
+    color:white;
+    width: 30%;
+    position: absolute;
+    bottom: 30px;
+    left: 55%;
+}
+
+.margen12{
+    background-color: aqua;
+    border-radius: 20px;
+    color:aqua;
+    width: 15%;
+    position: absolute;
+    bottom: 30px;
+    left: 55%;
+}
+
+.iconos{
+    background-color:rgb(255, 255, 0);
+    color: white;
+    padding-bottom: 40px;
+}
+
+.iconos h1{
+    font-family: arial;
+text-align: center;
+}
+nav{
+    display: flex;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    padding-left: 20px;
+    left:20%;
+    position: relative;
+}
+
