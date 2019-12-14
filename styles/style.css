@@ -192,7 +192,7 @@ button{
 }
 
 .iconos{
-    background-color:rgb(255, 255, 0);
+    background-color:rgb(224, 224, 65);
     color: white;
     padding-bottom: 40px;
 }
@@ -213,3 +213,32 @@ li{
     position: relative;
 }
 
+.contacto{
+    background-color: rgb(49, 148, 148);
+    color: white;
+    text-align: center;
+}
+.contacto input{
+    margin-left: 40px;
+}
+
+.contacto button{
+    border-radius: 0px;
+    width: 80px;
+    height: 45px;
+    background-color: rgb(24, 70, 70);
+}
+.contacto input[name="nombre"],input[name="apellido"]
+,input[name="email"],input[name="telefono"]{
+    height: 40px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.contacto input[name="apellido"],input[name="telefono"]{
+    margin-left: 100px;
+}
+.contacto input[name="descripcion"]{
+    height: 150px;
+    width: 520px;
+}
