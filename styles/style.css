@@ -1,244 +1,215 @@
-body{
-    background-color:lightgray;
-    
-}
-.general{
-    margin: opx;
-    padding: 0px;
-}
-*
-{
-    margin: 5px;
-    padding: 0px;
-}
-header{
-    color:gray;
-    font-family: arial;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.inicio{
-    background-image: url("https://free4kwallpapers.com/uploads/originals/2019/11/13/ultraviolet-wallpaper.jpg");
-    background-size: 100%;
-    padding-top: 10px;
-    padding-bottom: 100px;
-    color: white;
+h2 {
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  padding: 28px 0;
 }
 
-.inicio h2{
-    text-align: center;
-    font-family: Arial;
-font-size: 40px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;    
+  background-color: gray;
 }
 
-.nom{
-    padding-left: 40px;
-    font-family: arial;
+  body > div {
+    width: 900px;
+    margin: 0 auto;
+  }
+
+img {
+  display: block;
 }
 
-.about{
-    background-color: blue;
-    padding-bottom: 40px;
-    padding:10px;
-}
+/*----------------------------------------------------------Inicio------------------------------------------------------------------*/
+  .inicio {
+    height: 500px;
+  }
 
-.about h1{
-    color:white;
-    font-family: arial;
-    text-align: center;
-    
-}
+    .inicio > figure {
+      position: relative;
+      height: 100%;
+    }
 
-.about p{
-    color: white;
-    text-align: left;
-    font-family: arial;
-}
+      .inicio > figure > img {
+        height: 100%;
+        width: 100%;
+      }
 
-button{
-    background-color: blueviolet;
-    border: none;
-    border-radius: 10px;
-    padding: 15px;
-    margin-top: 50px;
-    color:white
-    
-}
+    .inicio > h1 {
+      font-size: 64px;
+      font-weight: bold;
+      color: white;
 
-.skills{
-    background-color: blueviolet;
-    padding: 100px;
-    padding-left: 20px;
-}
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      margin-left: -160.08px;
+      z-index: 1;
+    }
 
-.skills  h1{
-    color: white;
+    .inicio > div {
+      color: white;
+      position: absolute;
+      padding: 10px;
+      font-size: 25px;
+      top: 350px;
+      z-index: 1;
+      background-color: rgba(70, 250, 250, 0.473);
+      border-radius: 0 10px 10px 0;
+    }
+
+      .inicio > div > h2 {
+        padding: 0;
+      }
+
+  /*-------------------------------About--------------------------------*/
+  .about {
     position: relative;
-    top: -90px;
-    text-align: center;
-    font-family: arial;
+    height: 450px;
+    background-color: #7299FE;
+  }
+
+    .about > p {
+      padding: 0 40px;
+      text-align: justify;
+      color: white;
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    .about > button {
+      margin: 20px 0 0 41px;
+      color: white;
+      border-radius: 20px;
+      padding: 18px 59px;
+      border: none;
+      background-color: #D16FFF;
+      cursor: pointer;
+    }
+
+    .about > button:hover {
+      background: #ca032f;
+      transition: .5s;
+      font-size: 18px;
+    }
     
-}
-.margen{
-    background-color: white;
-    border-radius: 20px;
-    color:white;
-    width: 30%;
-    position: absolute;
-    bottom: -60px;
-}
+  /*---------------------------------Skills----------------------------*/
+  .skills {
+    background-color: #9122FF;
+    height: 420px;
+  }
 
-.margen2{
-    background-color: aqua;
-    border-radius: 20px;
-    color:aqua;
-    width: 20%;
-    position: absolute;
-    bottom: -60px;
-}
+    .skills > .skills_container {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 10px 0 0 64px;
+    }
 
-.margen3{
-    background-color: white;
-    border-radius: 20px;
-    color:white;
-    width: 30%;
-    position: absolute;
-    bottom: -15px;
-}
+      .skills > .skills_container > .skill {
+        margin: 0 65px 30px 0;
+      }
 
-.margen4{
-    background-color: aqua;
-    border-radius: 20px;
-    color:aqua;
-    width: 10%;
-    position: absolute;
-    bottom: -15px;
-}
-.margen5{
-    background-color: white;
-    border-radius: 20px;
-    color:white;
-    width: 30%;
-    position: absolute;
-    bottom: 30px;
-}
+        .skills > .skills_container > .skill > h3 {
+          font-size: 18px;
+          color: white;
+        }
 
-.margen6{
-    background-color: aqua;
-    border-radius: 20px;
-    color:aqua;
-    width: 15%;
-    position: absolute;
-    bottom: 30px;
-}
+        .skills > .skills_container > .skill > div {
+          background-color: white;
+          border-radius: 20px;
+          width: 350px;
+          margin: 14px 0;
+        }
 
-.margen7{
-    background-color: white;
-    border-radius: 20px;
-    color:white;
-    width: 30%;
-    position: absolute;
-    bottom: -60px;
-    left: 55%;
-}
+          .skills > .skills_container > .skill > div > .progress-bar {
+            background-color: #57EFF9;
+            border-radius: 20px;
+            padding: 10px;
+            width: 185px;
+          }
 
-.margen8{
-    background-color: aqua;
-    border-radius: 20px;
-    color:aqua;
-    width: 20%;
-    position: absolute;
-    bottom: -60px;
-    left: 55%;
+  /*-----------------------------------Portafolio-----------------------------*/
+  .portfolio {
+    background-color: #FFD233;
+    height: 400px;
+  }
 
-}
+    .portfolio_container {
+      width: 600px;
+      margin: 20px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
 
-.margen9{
-    background-color: white;
-    border-radius: 20px;
-    color:white;
-    width: 30%;
-    position: absolute;
-    bottom: -15px;
-    left: 55%;
-}
+      .portfolio_container > figure {
+        margin-bottom: 10px;
+      }
+      
+     
+  /*------------------------------Clients-----------------------------*/
+  .clients {
+    background-color: #3F4E62;
+    height: 230px;
+  }
 
-.margen10{
-    background-color: aqua;
-    border-radius: 20px;
-    color:aqua;
-    width: 10%;
-    position: absolute;
-    bottom: -15px;
-    left: 55%;
-}
-.margen11{
-    background-color: white;
-    border-radius: 20px;
-    color:white;
-    width: 30%;
-    position: absolute;
-    bottom: 30px;
-    left: 55%;
-}
+    .clients > .clients_container {
+      width: 800px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    
+  /*----------------------------Contact------------------------------------*/
+  .contact {
+    background-color: #1687A0;
+    height: 510px;
+  }
 
-.margen12{
-    background-color: aqua;
-    border-radius: 20px;
-    color:aqua;
-    width: 15%;
-    position: absolute;
-    bottom: 30px;
-    left: 55%;
-}
+    .contact > form {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 700px;
+      margin: 0 auto;
+    }
 
-.iconos{
-    background-color:rgb(224, 224, 65);
-    color: white;
-    padding-bottom: 40px;
-}
+      .contact > form > input {
+        border: 1px solid #BFBFBF;
+        margin-bottom: 25px;
+        padding: 20px 150px 20px 10px;
+        border-radius: 10px;
+      }
 
-.iconos h1{
-    font-family: arial;
-text-align: center;
-}
-nav{
-    display: flex;
-    text-decoration: none;
-}
+      .contact > form > textarea {
+        border: 1px solid #BFBFBF;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px 10px;
+        color: #8B758B;
+        border-radius: 10px;
+      }
 
-li{
-    list-style: none;
-    padding-left: 20px;
-    left:20%;
-    position: relative;
-}
+      .contact > form > button {
+        margin: 35px auto 0px;
+        padding: 15px 45px;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: white;
+        background-color: #233451;
+        border: none;
+        cursor: pointer;
+        border-radius: 18px;
+      }
 
-.contacto{
-    background-color: rgb(49, 148, 148);
-    color: white;
-    text-align: center;
-}
-.contacto input{
-    margin-left: 40px;
-}
-
-.contacto button{
-    border-radius: 0px;
-    width: 80px;
-    height: 45px;
-    background-color: rgb(24, 70, 70);
-}
-.contacto input[name="nombre"],input[name="apellido"]
-,input[name="email"],input[name="telefono"]{
-    height: 40px;
-    border-radius: 10px;
-    width: 200px;
-}
-
-.contacto input[name="apellido"],input[name="telefono"]{
-    margin-left: 100px;
-}
-.contacto input[name="descripcion"]{
-    height: 150px;
-    width: 520px;
-}
+      .contact > form > button:hover {
+        background: rgb(7, 250, 169);
+        color: black;
+        transition: .9s;
+        border: solid 2px #233451;
+      }
