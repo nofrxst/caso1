@@ -137,12 +137,12 @@ img {
           }
 
   /*-----------------------------------Portafolio-----------------------------*/
-  .portfolio {
+  .portafolio {
     background-color: #FFD233;
     height: 400px;
   }
 
-    .portfolio_container {
+    .portafolio_c {
       width: 600px;
       margin: 20px auto;
       display: flex;
@@ -150,18 +150,18 @@ img {
       justify-content: space-evenly;
     }
 
-      .portfolio_container > figure {
+      .portafolio_c > figure {
         margin-bottom: 10px;
       }
       
      
   /*------------------------------Clients-----------------------------*/
-  .clients {
+  .clientes {
     background-color: #3F4E62;
     height: 230px;
   }
 
-    .clients > .clients_container {
+    .clientes > .clientes_c {
       width: 800px;
       margin: 0 auto;
       display: flex;
@@ -170,12 +170,12 @@ img {
     }
     
   /*----------------------------Contact------------------------------------*/
-  .contact {
+  .contactos {
     background-color: #1687A0;
     height: 510px;
   }
 
-    .contact > form {
+    .contactos > form {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
@@ -183,14 +183,7 @@ img {
       margin: 0 auto;
     }
 
-      .contact > form > input {
-        border: 1px solid #BFBFBF;
-        margin-bottom: 25px;
-        padding: 20px 150px 20px 10px;
-        border-radius: 10px;
-      }
-
-      .contact > form > textarea {
+      .contactos > form > textarea {
         border: 1px solid #BFBFBF;
         font-family: Arial, Helvetica, sans-serif;
         padding: 20px 10px;
@@ -198,7 +191,14 @@ img {
         border-radius: 10px;
       }
 
-      .contact > form > button {
+      .contactos > form > input {
+        border: 1px solid #BFBFBF;
+        margin-bottom: 25px;
+        padding: 20px 150px 20px 10px;
+        border-radius: 10px;
+      }
+
+      .contactos > form > button {
         margin: 35px auto 0px;
         padding: 15px 45px;
         font-size: 18px;
@@ -210,7 +210,7 @@ img {
         border-radius: 18px;
       }
 
-      .contact > form > button:hover {
+      .contactos > form > button:hover {
         background: rgb(7, 250, 169);
         color: black;
         transition: .9s;
